@@ -14,11 +14,11 @@ const IndexPage = () => (
     </div>
     <p className="body-text">
       I like making things for the web.
-      You can find me online <a href="http://twitter.com/mattchupp" target="_blank">Tweeting</a> or
-      posting photos on <a href="http://instagram.com/mattychupp" target="_blank">Instagram</a>.
+      You can find me online <a href="http://twitter.com/mattchupp" rel="noopener noreferrer" target="_blank">Tweeting</a> or
+      posting photos on <a href="http://instagram.com/mattychupp" rel="noopener noreferrer" target="_blank">Instagram</a>.
       I also enjoy writing code. Check out some of my work on {` `}
-      <a href="https://codepen.io/mattchupp/" target="_blank">Codepen</a> or {` `}
-      <a href="http://github.com/mattchupp" target="_blank">Github</a>.
+      <a href="https://codepen.io/mattchupp/" rel="noopener noreferrer" target="_blank">Codepen</a> or {` `}
+      <a href="http://github.com/mattchupp" rel="noopener noreferrer" target="_blank">Github</a>.
     </p>
   </Layout>
 )
