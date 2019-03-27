@@ -1,6 +1,7 @@
 @import 'colors.module.scss';
 @import 'breakpoints.module.scss';
 @import 'typography.module.scss';
+@import 'navbar.module.scss';
 
 
 /* * * *
@@ -32,4 +33,13 @@ a {
 .container {
   max-width: 1000px;
   margin: 0 auto;
+}
+
+.left-container {
+  margin-left: 1rem;
+  padding-left: 1rem;
+}
+
+.active-link {
+  color: green;
 }

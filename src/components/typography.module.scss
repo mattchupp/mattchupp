@@ -1,18 +1,10 @@
 /* All typography sizes and line heights */
 
-@font-face {
-  font-family: MoonBold;
-  src: url(../font/Moon2.0-Bold.otf);
-}
-
-@font-face {
-  font-family: Moon;
-  src: url(../font/Moon2.0-Regular.otf);
-}
+@import url('https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre|Rubik');
 
 
-$heading-font: 'Moon', serif;
-$primary-font: sans-serif;
+$heading-font: 'Rubik', sans-serif;
+$primary-font: 'Frank Ruhl Libre', serif;
 
 /*
  -- Headings --
@@ -103,8 +95,11 @@ h4 {
   -- Text --
 */
 
-p {
+body {
   font-family: $primary-font;
+}
+
+p {
   font-size: 1em;
   /* equivalent to 16px */
   line-height: 1.25;
