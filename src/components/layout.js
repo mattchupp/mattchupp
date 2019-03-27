@@ -32,7 +32,7 @@ const Layout = ({ children }) => (
       <>
         <Header navLinks={data.site.siteMetadata.navLinks} siteTitle={data.site.siteMetadata.title} />
         <div>
-          <main>{children}</main>
+          <main className="left-container">{children}</main>
           <footer>
             © {new Date().getFullYear()}, Built with
             {` `}

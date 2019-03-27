@@ -2,22 +2,21 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
+
 const Header = ({ navLinks }) => (
-  <div style={{
-    backgroundColor: '#303030',
-  }}>
-    <nav className="uk-navbar">
-      <div className="uk-navbar-left">
-        <ul className="uk-navbar-nav">
-          <li><Link to="/">Matt Chupp</Link></li>
+  <div>
+    <nav className="navbar">
+      <div className="">
+        <ul className="navbar-items">
+          <li><Link style={{textDecoration: 'none'}} to="/">Matt Chupp</Link></li>
         </ul>
       </div>
-      <div className="uk-navbar-right">
-        <ul className="uk-navbar-nav">
+      <div className="">
+        <ul className="navbar-items">
           {
             navLinks.map(link =>
-              <li key={link.name} style={{ 'listStyleType': 'none', margin: '10px'}}>
-                <Link to={link.route}>{link.name}</Link>
+              <li key={link.name} className="">
+                <Link style={{textDecoration: 'none'}} activeStyle={{color: 'green'}} to={link.route}>{link.name}</Link>
               </li>
             )
           }
