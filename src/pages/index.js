@@ -13,6 +13,7 @@ const IndexPage = () => (
       <Matt />
     </div>
     <p className="body-text">
+      I like making things for the web.
       You can find me online <a href="http://twitter.com/mattchupp" target="_blank">Tweeting</a> or
       posting photos on <a href="http://instagram.com/mattychupp" target="_blank">Instagram</a>.
       I also enjoy writing code. Check out some of my work on {` `}
