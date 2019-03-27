@@ -13,7 +13,9 @@ const IndexPage = () => (
       <Matt />
     </div>
     <p className="body-text">
-      I like to build stuff.
+      You can find me online <a href="">Tweeting</a> or
+      posting photos on <a href="">Instagram</a>. I also enjoy writing code.
+      Check out some of my work on <a href="">Codepen</a> or <a href="">Github</a>.
     </p>
   </Layout>
 )
