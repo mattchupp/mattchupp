@@ -8,7 +8,7 @@ const Header = ({ navLinks }) => (
     <nav className="navbar">
       <div className="">
         <ul className="navbar-items">
-          <li><Link style={{textDecoration: 'none'}} to="/">Matt Chupp</Link></li>
+          <li><Link style={{textDecoration: 'none'}} activeStyle={{color: '#1c7278'}} to="/">Matt Chupp</Link></li>
         </ul>
       </div>
       <div className="">
