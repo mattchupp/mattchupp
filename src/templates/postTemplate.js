@@ -18,7 +18,7 @@ export default function Template({
           dangerouslySetInnerHTML={{ __html: html }}
         />
         <hr/>
-        <Link to="/blog">More posts</Link>
+        <Link style={{paddingBottom: '1rem'}} to="/blog">More posts</Link>
       </div>
     </Layout>
   )
