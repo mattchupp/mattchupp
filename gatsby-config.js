@@ -3,6 +3,12 @@ module.exports = {
     title: `Matt Chupp`,
     description: `Matt Chupp is a normal guy. He works as an IT Support guy and likes to make websites.`,
     author: `@mattchupp`,
+    navLinks: [
+      {
+        name: 'Blog',
+        route: '/blog'
+      }
+    ]
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
