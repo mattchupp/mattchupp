@@ -16,7 +16,7 @@ const Header = ({ navLinks }) => (
           {
             navLinks.map(link =>
               <li key={link.name} className="">
-                <Link style={{textDecoration: 'none'}} activeStyle={{color: 'green'}} to={link.route}>{link.name}</Link>
+                <Link style={{textDecoration: 'none'}} activeStyle={{color: '#1c7278'}} to={link.route}>{link.name}</Link>
               </li>
             )
           }

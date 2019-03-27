@@ -2,11 +2,16 @@
 
 
 .navbar {
-  // margin-left: 1rem;
   padding: 1rem;
-
 }
 
 .navbar-items {
+  font-size: 1.1em;
   list-style-type: none;
+}
+
+@media (min-width: $breakpoint-large-screen) {
+  .navbar-items {
+    font-size: 1.3em;
+  }
 }
