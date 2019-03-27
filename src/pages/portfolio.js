@@ -8,10 +8,10 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Portfolio" keywords={[`gatsby`, `application`, `react`]} />
     <h1>Work</h1>
-    <p>Things I do for work</p>
+    <p>[ Things I do for work ]</p>
     <Work
       name="Reverb Conference"
-      postLink="/blog/"
+      postLink="/blog/reverb-conference"
     />
     <Work
       name="More Love More Power"
@@ -26,7 +26,7 @@ const IndexPage = () => (
       postLink="/blog/"
     />
     <h1 style={{paddingTop: '2rem'}}>Projects</h1>
-    <p>Things I do for play</p>
+    <p>[ Things I do for play ]</p>
     <Work
       name="Weather"
       postLink="/blog/"

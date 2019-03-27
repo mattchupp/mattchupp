@@ -2,6 +2,7 @@
 path: "/blog/fast-and-clean"
 date: "2019-03-27"
 title: "Make it fast. Make it clean."
+author: Matt Chupp
 ---
 
 I wouldn't call myself an expert in web development, but there is something I
