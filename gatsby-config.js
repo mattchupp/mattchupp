@@ -7,6 +7,10 @@ module.exports = {
       {
         name: 'Blog',
         route: '/blog'
+      },
+      {
+        name: 'Portfolio',
+        route: '/portfolio'
       }
     ]
   },
