@@ -16,6 +16,10 @@ body, caption, th, td, input, textarea, select, option, legend, fieldset, h1, h2
   font-size-adjust: 0.5;
 }
 
+hr {
+  background-color: $link-hover-color;
+}
+
 a {
   color: $link-color;
   &:hover {
