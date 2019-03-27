@@ -33,9 +33,6 @@ const Layout = ({ children }) => (
         <Header navLinks={data.site.siteMetadata.navLinks} siteTitle={data.site.siteMetadata.title} />
         <div>
           <main className="left-container">{children}</main>
-          <footer>
-            © {new Date().getFullYear()}, Built by Matt Chupp
-          </footer>
         </div>
       </>
     )}
