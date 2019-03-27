@@ -16,6 +16,12 @@ body, caption, th, td, input, textarea, select, option, legend, fieldset, h1, h2
   font-size-adjust: 0.5;
 }
 
+footer {
+  position: absolute;
+  bottom: 0;
+  padding: 2rem;
+}
+
 a {
   color: $link-color;
   &:hover {
