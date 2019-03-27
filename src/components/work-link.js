@@ -2,10 +2,10 @@ import React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
 
-const WorkLink = ({ post, name }) => (
+const WorkLink = ({ postLink, name }) => (
   <div>
     <h3>
-      <Link style={{textDecoration: 'none'}} to={post}>
+      <Link style={{textDecoration: 'none'}} to={postLink}>
         {name}
       </Link>
     </h3>
@@ -15,11 +15,11 @@ const WorkLink = ({ post, name }) => (
 export default WorkLink
 
 WorkLink.propTypes = {
-  post: PropTypes.node.isRequired,
+  postLink: PropTypes.node.isRequired,
   name: PropTypes.node.isRequired
 }
 
 WorkLink.defaultProps = {
-  post: ``,
+  postLink: ``,
   name: ``
 }
