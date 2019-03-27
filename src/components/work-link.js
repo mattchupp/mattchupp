@@ -5,8 +5,8 @@ import { Link } from "gatsby"
 const WorkLink = ({ post, name }) => (
   <div>
     <h3>
-      <Link style={{textDecoration: 'none'}} to={this.prop.post}>
-        {this.prop.name}
+      <Link style={{textDecoration: 'none'}} to={post}>
+        {name}
       </Link>
     </h3>
   </div>
@@ -17,4 +17,9 @@ export default WorkLink
 WorkLink.propTypes = {
   post: PropTypes.node.isRequired,
   name: PropTypes.node.isRequired
+}
+
+WorkLink.defaultProps = {
+  post: ``,
+  name: ``
 }
