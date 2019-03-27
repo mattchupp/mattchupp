@@ -1,0 +1,146 @@
+/* All typography sizes and line heights */
+
+@font-face {
+  font-family: MoonBold;
+  src: url(../font/Moon2.0-Bold.otf);
+}
+
+@font-face {
+  font-family: Moon;
+  src: url(../font/Moon2.0-Regular.otf);
+}
+
+
+$heading-font: 'Moon', serif;
+$primary-font: sans-serif;
+
+/*
+ -- Headings --
+ */
+
+h1,h2,h3,h4,h5 {
+  font-family: $heading-font;
+  color: $primary-header-color;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 2em;
+  /* 2x body copy size = 32px */
+  line-height: 1.25;
+  /* 45px / 36px */
+}
+
+@media (min-width: $breakpoint-large-screen) {
+  h1 {
+    font-size: 3em;
+    /* 3x body copy size = 48px */
+    line-height: 1.05;
+    /* keep to a multiple of the 20px line height and something more appropriate for display headings */
+  }
+}
+
+h2 {
+  font-size: 1.625em;
+  /* 1.625x body copy size = 26px */
+  line-height: 1.15384615;
+  /* 30px / 26px */
+}
+
+@media (min-width: $breakpoint-medium-screen) {
+  h2 {
+    font-size: 2em;
+    /* 2x body copy size = 32px */
+    line-height: 1.25;
+  }
+}
+
+@media (min-width: $breakpoint-large-screen) {
+  h2 {
+    font-size: 2.25em;
+    /* 2.25x body copy size = 36px */
+    line-height: 1.25;
+  }
+}
+
+h3 {
+  font-size: 1.375em;
+  /* 1.375x body copy size = 22px */
+  line-height: 1.13636364;
+  /* 25px / 22px */
+}
+
+@media (min-width: $breakpoint-medium-screen) {
+  h3 {
+    font-size: 1.5em;
+    /* 1.5x body copy size = 24px */
+    line-height: 1.25;
+  }
+}
+
+@media (min-width: $breakpoint-large-screen) {
+  h3 {
+    font-size: 1.75em;
+    /* 1.75x body copy size = 28px */
+    line-height: 1.25;
+  }
+}
+
+h4 {
+  font-size: 1.125em;
+  /* 1.125x body copy size = 18px */
+  line-height: 1.11111111;
+}
+
+@media (min-width: $breakpoint-medium-screen) {
+  h4 {
+    line-height: 1.22222222;
+    /* (22px / 18px */
+  }
+}
+
+/*
+  -- Text --
+*/
+
+p {
+  font-family: $primary-font;
+  font-size: 1em;
+  /* equivalent to 16px */
+  line-height: 1.25;
+  /* equivalent to 20px */
+}
+
+@media (min-width: $breakpoint-medium-screen) {
+  p {
+    font-size: 1em;
+    /* equivalent to 16px */
+    line-height: 1.375;
+    /* equivalent to 22px */
+  }
+}
+
+/*
+  -- Classes --
+*/
+
+.body-text {
+    font-size: 1.1em;
+}
+
+@media (min-width: $breakpoint-large-screen) {
+  .body-text {
+    font-size: 1.3em;
+  }
+}
+
+.meta-text {
+  font-size: .9em;
+}
+
+/*
+  -- Font Weight --
+*/
+.bold {
+  font-weight: bold;
+}
