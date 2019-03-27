@@ -10,18 +10,16 @@ export default function Template({
   const { frontmatter, html } = markdownRemark
   return (
     <Layout>
-      <div className="blog-post-container">
-        <div className="blog-post">
-          <h1>{frontmatter.title}</h1>
-          <p className="meta-text">{frontmatter.date}</p>
-          {frontmatter.author ? <p>{frontmatter.author}</p> : null}
-          <div
-            className="blog-post-content"
-            dangerouslySetInnerHTML={{ __html: html }}
-          />
-        </div>
+      <hr/>
+      <div className="body-text">
+        <h1>{frontmatter.title}</h1>
+        <p className="meta-text">{frontmatter.date}</p>
+        <div
+          dangerouslySetInnerHTML={{ __html: html }}
+        />
+        <hr/>
+        <Link to="/blog">More posts</Link>
       </div>
-      <Link to="/blog">More Posts</Link>
     </Layout>
   )
 }
@@ -34,7 +32,6 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         path
         title
-        author
       }
     }
   }
