@@ -20,6 +20,15 @@ const IndexPage = () => (
       <a href="https://codepen.io/mattchupp/" rel="noopener noreferrer" target="_blank">Codepen</a> or {` `}
       <a href="http://github.com/mattchupp" rel="noopener noreferrer" target="_blank">Github</a>.
     </p>
+
+    <p className="body-text">
+    <strong>Some of my favorite tools to make websites with are:</strong><br/>
+    HTML, CSS, JS, ReactJS, GatsbyJS, Bootstrap, UIKit.
+    </p>
+    <p className="body-text">
+    <strong>I also have some experience with:</strong><br/>
+    Wordpress, CraftCMS, PHP, Ghost
+    </p>
   </Layout>
 )
 
