@@ -31,6 +31,13 @@ a:hover {
   color: $link-hover-color
 }
 
+::selection {
+  background: #6fd6dd; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #6fd6dd; /* Gecko Browsers */
+}
+
 /* * * *
  -- Class Styles --
 */
