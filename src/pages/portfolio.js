@@ -29,7 +29,7 @@ const IndexPage = () => (
     <p>[ Things I do for play ]</p>
     <Work
       name="Weather"
-      postLink="/blog/"
+      postLink="/blog/weather-app"
     />
   </Layout>
 )
