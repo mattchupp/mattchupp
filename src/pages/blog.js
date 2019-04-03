@@ -12,7 +12,7 @@ const IndexPage = ({
     .filter(edge => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
     .map(edge => <PostLink key={edge.node.id} post={edge.node} />)
 
-  return <Layout>{Posts}</Layout>
+  return <Layout><SEO title="Blog" keywords={[`gatsby`, `portfolio`, `blog`]} />{Posts}</Layout>
 }
 
 export default IndexPage
