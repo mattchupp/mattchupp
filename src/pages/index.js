@@ -26,7 +26,7 @@ const IndexPage = () => (
     </p>
     <p className="body-text">
     <strong>I also have some experience with:</strong><br/>
-    Wordpress, CraftCMS, PHP, Ghost
+    Wordpress, CraftCMS, PHP, Ghost, NextJs
     </p>
   </Layout>
 )

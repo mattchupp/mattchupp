@@ -1,12 +1,14 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import ThemeToggle from "./themetoggle"
 
 
 const Header = ({ navLinks }) => (
   <div>
     <nav className="navbar">
       <div className="">
+        <ThemeToggle/>
         <ul className="navbar-items">
           <li><Link style={{textDecoration: 'none'}} activeStyle={{color: '#1c7278'}} to="/">Matt Chupp</Link></li>
         </ul>
