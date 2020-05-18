@@ -12,8 +12,8 @@ export default function Template({
     <Layout>
       <hr/>
       <div className="body-text">
-        <h1>{frontmatter.title}</h1>
-        <p className="meta-text">{frontmatter.date}</p>
+        <h1 className="post-title">{frontmatter.title}</h1>
+        <p className="meta-text">Posted on {frontmatter.date}</p>
         <div
           dangerouslySetInnerHTML={{ __html: html }}
         />
