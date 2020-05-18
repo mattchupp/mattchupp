@@ -22,7 +22,7 @@ const IndexPage = () => (
 
     <p className="body-text">
     <strong>Some of my favorite tools to make websites with are:</strong><br/>
-    HTML, CSS, JS, ReactJS, GatsbyJS, Bootstrap, UIKit.
+    ReactJS, GatsbyJS, Bootstrap, UIKit, and anything else that's shiny and new.
     </p>
     <p className="body-text">
     <strong>I also have some experience with:</strong><br/>
