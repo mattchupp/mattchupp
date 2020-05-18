@@ -128,8 +128,14 @@ p {
   }
 }
 
+/* meta text on blog posts - used for date */
 .meta-text {
   font-size: .9em;
+}
+
+/* remove margin on post titles so meta text sits right below title */
+.post-title {
+  margin: 0;
 }
 
 /*
