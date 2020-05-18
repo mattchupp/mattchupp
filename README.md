@@ -9,7 +9,6 @@
 1.  **Clone this repo**
 
     ```sh
-    # create a new Gatsby site using the default starter
     git clone https://github.com/mattchupp/mattchupp.git
     ```
 
