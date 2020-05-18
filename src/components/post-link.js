@@ -8,8 +8,7 @@ const PostLink = ({ post }) => (
         {post.frontmatter.title}
       </Link>
     </h3>
-    <p className="meta-text">{post.frontmatter.date}
-    | {post.fields.readingTime.text}</p>
+    <p className="meta-text">{post.frontmatter.date} | {post.fields.readingTime.text}</p>
   </div>
 )
 
