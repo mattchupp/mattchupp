@@ -2,11 +2,9 @@
 @import 'breakpoints.module.scss';
 @import 'typography.module.scss';
 @import 'navbar.module.scss';
+@import 'themetoggle.module.scss';
 
 
-/* * * *
- -- Tags Styles --
-*/
 body {
   background-color: $background-light-color;
   color: $primary-text-light-color;

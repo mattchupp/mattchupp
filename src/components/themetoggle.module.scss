@@ -1,0 +1,15 @@
+/* Styles for dark mode switch */
+
+.dark-mode-switch {
+  position: relative;
+  margin: 2rem 0 2rem 2.2rem;
+  cursor: pointer;
+}
+
+.dark-mode-switch input {
+  opacity: 0;
+  height: 0;
+  width: 0;
+  padding: 0;
+  margin: 0;
+}
