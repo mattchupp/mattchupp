@@ -7,8 +7,8 @@ import ThemeToggle from "./themetoggle"
 const Header = ({ navLinks }) => (
   <div>
     <nav className="navbar">
+      <ThemeToggle/>
       <div className="">
-        <ThemeToggle/>
         <ul className="navbar-items">
           <li><Link style={{textDecoration: 'none'}} activeStyle={{color: '#1c7278'}} to="/">Matt Chupp</Link></li>
         </ul>
