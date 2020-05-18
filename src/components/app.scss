@@ -8,34 +8,63 @@
  -- Tags Styles --
 */
 body {
-  background-color: #fcfcfc;
-  color: #000;
+  background-color: $background-light-color;
+  color: $primary-text-light-color;
   font-size: 100%;
+
+  h1,h2,h3,h4,h5 {
+    color: $primary-header-light-color;
+  }
+
+  a {
+    color: $link-light-color;
+    &:hover {
+      color: $link-hover-light-color;
+    }
+  }
+
+  a:hover {
+    color: $link-hover-light-color;
+  }
+
+  hr {
+    background-color: $link-hover-light-color;
+  }
+
 }
 
 body.dark {
-  background-color: #141d26; 
-  color: #fcfcfc;
+  background-color: $background-dark-color;
+  color: $primary-text-dark-color;
+
+  h1,h2,h3,h4,h5 {
+    color: $primary-header-dark-color;
+  }
+
+  a {
+    color: $link-dark-color;
+    &:hover {
+      color: $link-hover-dark-color;
+    }
+  }
+
+  a:hover {
+    color: $link-hover-dark-color
+  }
+
+  hr {
+    background-color: $link-hover-dark-color;
+  }
+
 }
 
 body, caption, th, td, input, textarea, select, option, legend, fieldset, h1, h2, h3, h4, h5, h6 {
   font-size-adjust: 0.5;
 }
 
-hr {
-  background-color: $link-hover-color;
-}
 
-a {
-  color: $link-color;
-  &:hover {
-    color: $link-hover-color;
-  }
-}
 
-a:hover {
-  color: $link-hover-color
-}
+
 
 ::selection {
   background: #6fd6dd; /* WebKit/Blink Browsers */
