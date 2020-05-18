@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Matt Chupp`,
-    description: `Matt Chupp is a normal guy. He works as an IT Support guy and likes to make websites.`,
+    description: `Matt Chupp is a normal guy who likes to make things for the world wide web.`,
     author: `@mattchupp`,
     navLinks: [
       {
@@ -46,6 +46,8 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
+    // for dark mode theming
+    'gatsby-plugin-dark-mode',
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // 'gatsby-plugin-offline',
