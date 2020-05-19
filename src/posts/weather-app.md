@@ -112,6 +112,8 @@ class Temperature extends Component {
 }
 ```
 
+[Check out the code](https://github.com/mattchupp/weather)
+
 ## Future Improvements
 - [ ] Get current location instead of typing zip code in
 - [ ] Allow input for cities and zip codes
