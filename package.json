@@ -1,5 +1,5 @@
 {
-  "name": "Matt Chupp Homepage",
+  "name": "Matt_Chupp_Homepage",
   "private": true,
   "description": "My personal webpage!",
   "version": "0.1.0",
@@ -13,6 +13,7 @@
     "gatsby-plugin-react-helmet": "^3.0.10",
     "gatsby-plugin-sass": "^2.0.11",
     "gatsby-plugin-sharp": "^2.6.3",
+    "gatsby-plugin-styled-components": "^3.3.2",
     "gatsby-remark-reading-time": "^1.1.0",
     "gatsby-source-filesystem": "^2.3.3",
     "gatsby-transformer-remark": "^2.3.8",
@@ -22,7 +23,8 @@
     "prop-types": "^15.7.2",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "styled-components": "^5.1.1"
   },
   "devDependencies": {
     "prettier": "^1.16.4"
