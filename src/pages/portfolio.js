@@ -13,6 +13,10 @@ const IndexPage = () => (
       name="Weather"
       postLink="/blog/weather-app"
     />
+    <Work
+      name="SpaceX API"
+      postLink="/blog/spacex-api"
+    />
   </Layout>
 )
 
