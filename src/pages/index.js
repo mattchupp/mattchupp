@@ -20,6 +20,10 @@ const IndexPage = () => (
       <a href="http://github.com/mattchupp" rel="noopener noreferrer" target="_blank">Github</a>.
     </p>
 
+    <p className="body-text">
+      This site is made with <a href="https://www.gatsbyjs.org" rel="noopener noreferrer" target="_blank">Gatsby</a>.
+    </p>
+
   </Layout>
 )
 
