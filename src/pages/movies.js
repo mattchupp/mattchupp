@@ -1,11 +1,11 @@
 import React from "react"
 
-// import Layout from "../components/layout"
 
+// json object for all movies
 const movieList = [
   {
-    "title": "Godfather",
-    "watched": false
+    'title': 'Godfather',
+    'watched': false
   },
   {
     'title': 'Schindler\'s List',
@@ -63,22 +63,225 @@ const movieList = [
     'title': 'Shawshank Redemption',
     'watched': false
   },
+  {
+    'title': 'Fight Club',
+    'watched': false
+  },
+  {
+    'title': 'Braveheart',
+    'watched': false
+  },
+  {
+    'title': 'Gladiator',
+    'watched': false
+  },
+  {
+    'title': 'The Usual Suspects',
+    'watched': false
+  },
+  {
+    'title': 'Diehard',
+    'watched': false
+  },
+  {
+    'title': 'Diehard',
+    'watched': false
+  },
+  {
+    'title': 'Terminator',
+    'watched': true
+  },
+  {
+    'title': 'Terminator 2',
+    'watched': true
+  },
+  {
+    'title': 'Terminator 3-6?',
+    'watched': false
+  },
+  {
+    'title': 'Full Metal Jacket',
+    'watched': false
+  },
+  {
+    'title': 'Shutter Island',
+    'watched': false
+  },
+  {
+    'title': 'Big Labowski',
+    'watched': false
+  },
+  {
+    'title': 'Scarface',
+    'watched': false
+  },
+  {
+    'title': 'Inglorius Bastards',
+    'watched': false
+  },
+  {
+    'title': 'Ferris Buelers Day Off',
+    'watched': false
+  },
+  {
+    'title': 'Grand Budapest Hotel',
+    'watched': false
+  },
+  {
+    'title': 'Close Encounters of 3rd Kind',
+    'watched': false
+  },
+  {
+    'title': 'Dead Poets Society',
+    'watched': false
+  },
+  {
+    'title': 'Jack Ryan (Harrison Ford ones)',
+    'watched': false
+  },
+  {
+    'title': 'The Witness',
+    'watched': false
+  },
+  {
+    'title': 'Mission Impossibles',
+    'watched': false
+  },
+  {
+    'title': 'Breakfast Club',
+    'watched': false
+  },
+  {
+    'title': '16 Candles',
+    'watched': false
+  },
+  {
+    'title': 'The Shining',
+    'watched': true
+  },
+  {
+    'title': 'Lord of the Rings',
+    'watched': false
+  },
+  {
+    'title': 'Princess Bride',
+    'watched': true
+  },
+  {
+    'title': 'Ocean\'s 11',
+    'watched': true
+  },
+  {
+    'title': 'Ocean\'s 12-?',
+    'watched': false
+  },
+  {
+    'title': 'Minority Report',
+    'watched': false
+  },
+  {
+    'title': 'Top Gun',
+    'watched': false
+  },
+  {
+    'title': 'Days of Thunder',
+    'watched': false
+  },
+  {
+    'title': 'My Fair Lady',
+    'watched': false
+  },
+  {
+    'title': 'Butch Cassidy Sundance Kid',
+    'watched': false
+  },
+  {
+    'title': 'Platoon',
+    'watched': false
+  },
+  {
+    'title': 'Jarassic Park',
+    'watched': true
+  },
+  {
+    'title': 'Jarassic Park (the others)',
+    'watched': false
+  },
+  {
+    'title': 'Star Trek',
+    'watched': false
+  },
+  {
+    'title': 'The Exorsism of Emily Rose',
+    'watched': false
+  },
+  {
+    'title': 'John Wick',
+    'watched': false
+  },
+  {
+    'title': 'Rain Man',
+    'watched': false
+  },
+  {
+    'title': 'The Green Mile',
+    'watched': false
+  },
+  {
+    'title': 'American Graffiti',
+    'watched': false
+  },
+  {
+    'title': 'Psycho',
+    'watched': false
+  },
+  {
+    'title': 'Chinatown',
+    'watched': false
+  },
+  {
+    'title': 'Sneakers',
+    'watched': false
+  },
+  {
+    'title': 'Resident Evil',
+    'watched': false
+  }
  
   
 ]
 
+const strikethrough = {
+  'textDecoration': 'line-through'
+}
 
-const IndexPage = () => (
-  <div>
+
+const MoviePage = () => (
+  <div className="left-container">
+    <br />
     <h1>Movie Watchlist</h1>
+    <table>
+      <tr>
+        <th>Movie</th>
+        <th>Watched</th>
+      </tr>
 
-    {movieList.map(movie => (
-      <div>
-        {movie.title}
-      </div>
-    ))}
-    
+      {movieList.map(movie => (
+        <tr>
+          <td>
+            {movie.watched && <span style={strikethrough}>{movie.title}</span>}
+            {!movie.watched && <>{movie.title}</>}
+          </td>
+          <td>
+            {movie.watched && <>yes</>}
+            {!movie.watched && <>no</>}
+          </td>
+        </tr>
+      ))}
+      
+    </table>
+
   </div>
 )
 
-export default IndexPage
+export default MoviePage
