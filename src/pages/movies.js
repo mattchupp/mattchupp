@@ -212,10 +212,6 @@ const movieList = [
     'watched': false
   },
   {
-    'title': 'The Exorsism of Emily Rose',
-    'watched': false
-  },
-  {
     'title': 'John Wick',
     'watched': false
   },
