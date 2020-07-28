@@ -12,22 +12,14 @@ const IndexPage = () => (
       <Matt />
     </div>
     <p className="body-text">
-      I like making things for the web.
+      I am a software developer, guitar player, and enneagram type 5. 
       You can find me online <a href="http://twitter.com/mattchupp" rel="noopener noreferrer" target="_blank">Tweeting</a> or
       posting photos of food on <a href="http://instagram.com/mattychupp" rel="noopener noreferrer" target="_blank">Instagram</a>.
-      I also enjoy writing code. Check out some of my work on {` `}
+      I spend a lot of my free time writing code. Check out my {` `}
       <a href="https://codepen.io/mattchupp/" rel="noopener noreferrer" target="_blank">Codepen</a> or {` `}
       <a href="http://github.com/mattchupp" rel="noopener noreferrer" target="_blank">Github</a>.
     </p>
 
-    <p className="body-text">
-    <strong>Some of my favorite tools to make websites with are:</strong><br/>
-    ReactJS, GatsbyJS, Bootstrap, UIKit, and anything else that's shiny and new.
-    </p>
-    <p className="body-text">
-    <strong>I also have some experience with:</strong><br/>
-    Wordpress, CraftCMS, PHP, Ghost, NextJs
-    </p>
   </Layout>
 )
 
