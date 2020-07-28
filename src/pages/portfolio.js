@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 import Work from "../components/work-link"
 import SEO from "../components/seo"
 
-const IndexPage = () => (
+const PortfolioPage = () => (
   <Layout>
     <SEO title="Portfolio" keywords={[`gatsby`, `portfolio`, `react`, `Matt Chupp`]} />
     <h1 style={{paddingTop: '2rem'}}>Projects</h1>
@@ -20,4 +20,4 @@ const IndexPage = () => (
   </Layout>
 )
 
-export default IndexPage
+export default PortfolioPage
