@@ -1,5 +1,8 @@
 import React from "react"
 
+import "../components/layout.css"
+import "../components/app.scss"
+
 
 // json object for all movies
 const movieList = [
