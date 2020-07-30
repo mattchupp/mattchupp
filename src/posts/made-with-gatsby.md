@@ -1,7 +1,7 @@
 ---
-path: "/blog/through-the-years"
-date: "2020-05-17"
-title: "Through The Years"
+path: "/blog/made-with-gatsby"
+date: "2020-07-30"
+title: "Made With Gatsby"
 ---
 
 This is how my site works. I bought my domain in 2015 and have had a website running since then. As new tools (& my skills expanded) it has seen a lot of changes. At first it was just hosted on godaddy. It lived on [digital ocean](https://www.digitalocean.com) droplet for a while. I even had it hosted on github pages. Most or all of the code still lives on [github](https://github.com/mattchupp) some where. This iteration is my favorite.
