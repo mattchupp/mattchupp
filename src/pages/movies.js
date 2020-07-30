@@ -4,7 +4,15 @@ import React from "react"
 // json object for all movies
 const movieList = [
   {
-    'title': 'Godfather',
+    'title': 'The Godfather',
+    'watched': false
+  },
+  {
+    'title': 'The Godfather II',
+    'watched': false
+  },
+  {
+    'title': 'The Godfather III',
     'watched': false
   },
   {
@@ -20,7 +28,27 @@ const movieList = [
     'watched': false
   },
   {
-    'title': 'Bourne',
+    'title': 'The Bourne Identity',
+    'watched': true
+  },
+  {
+    'title': 'The Bourne Supremacy',
+    'watched': false
+  },
+  {
+    'title': 'The Bourne Ultimatum',
+    'watched': false
+  },
+  {
+    'title': 'The Bourne Ultimatum',
+    'watched': false
+  },
+  {
+    'title': 'The Bourne Legacy',
+    'watched': false
+  },
+  {
+    'title': 'Jason Bourne',
     'watched': false
   },
   {
@@ -77,10 +105,6 @@ const movieList = [
   },
   {
     'title': 'The Usual Suspects',
-    'watched': false
-  },
-  {
-    'title': 'Diehard',
     'watched': false
   },
   {
@@ -204,7 +228,11 @@ const movieList = [
     'watched': true
   },
   {
-    'title': 'Jarassic Park (the others)',
+    'title': 'The Last World: Jarassic Park',
+    'watched': false
+  },
+  {
+    'title': 'Jarassic Park III',
     'watched': false
   },
   {
@@ -243,8 +271,7 @@ const movieList = [
     'title': 'Resident Evil',
     'watched': false
   }
- 
-  
+   
 ]
 
 const strikethrough = {
@@ -254,7 +281,6 @@ const strikethrough = {
 
 const MoviePage = () => (
   <div className="left-container">
-    <br />
     <h1>Movie Watchlist</h1>
     <table>
       <tr>
