@@ -80,7 +80,7 @@ const movieList = [
   },
   {
     'title': 'Matrix',
-    'watched': false
+    'watched': true
   },
   {
     'title': 'Fargo',
