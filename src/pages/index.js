@@ -15,7 +15,7 @@ const IndexPage = () => (
       I am a software developer, guitar player, and enneagram type 5. 
       You can find me online <a href="http://twitter.com/mattchupp" rel="noopener noreferrer" target="_blank">Tweeting</a> or
       posting photos of food on <a href="http://instagram.com/mattychupp" rel="noopener noreferrer" target="_blank">Instagram</a>.
-      I spend a lot of my free time writing code. Check out my {` `}
+      I spend some of my free time writing code, but not all of it. Check out my {` `}
       <a href="https://codepen.io/mattchupp/" rel="noopener noreferrer" target="_blank">Codepen</a> or {` `}
       <a href="http://github.com/mattchupp" rel="noopener noreferrer" target="_blank">Github</a>.
     </p>
